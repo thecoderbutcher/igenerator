@@ -9,10 +9,10 @@
 <body>
     <section class="image-generator">
         <div class="content">
-            <h1>AI Image Generator Tool JS</h1>
-            <p>Convert your text into an image within a second using JAIG</p>
-            <form action="#" class="generate-form">
-                <input type="text" class="promt-input" placeholder="Describe what you want" required>
+            <h1>JAIG - AI Image Generator</h1>
+            <p>Convert your text into an image within a second</p>
+            <form action="#" class="generate-form" name="generate-form">
+                <input type="text" class="promt-input" placeholder="Describe what you want" required name="promt-input">
                 <div class="controls">
                     <select name="img-quantity" id="" class="img-quantity">
                         <option value="1">1 image</option>
@@ -26,23 +26,23 @@
         </div>
     </section>
     <section class="image-gallery">
-        <div class="img-card loading">
-            <img src="/images/loading.svg" alt="result">
-            <a href="" class="download-btn"></a> 
-        </div> 
         <div class="img-card">
-            <img src="/images/img-1.jpg" alt="result">
+            <img src="/images/default.jpg" alt="result">
             <a href="" class="download-btn"></a>
         </div>
         <div class="img-card">
-            <img src="/images/img-1.jpg" alt="result">
+            <img src="/images/default.jpg" alt="result">
             <a href="" class="download-btn"></a>
         </div>
         <div class="img-card">
-            <img src="/images/img-1.jpg" alt="result">
+            <img src="/images/default.jpg" alt="result">
             <a href="" class="download-btn"></a>
         </div>
-
+        <div class="img-card">
+            <img src="/images/default.jpg" alt="result">
+            <a href="" class="download-btn"></a>
+        </div>
     </section>
+    <script src="/js/app.js" defer></script>
 </body>
 </html>
