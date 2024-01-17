@@ -59,7 +59,7 @@ generateForm.addEventListener('submit', (e) => {
 
     const imgCard = Array.from({length: quantity}, () => 
         `<div class="img-card loading">
-            <img src="/images/loading.svg" alt="result">
+            <img src="./images/loading.svg" alt="result">
             <a href="" class="download-btn"></a> 
         </div>`
     ).join('');
