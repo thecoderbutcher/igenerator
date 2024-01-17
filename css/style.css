@@ -93,7 +93,7 @@
     align-items: center;
     position: relative;
     justify-content: center;
-    background: url("/images/bg.jpg");
+    background: url("./images/bg.jpg");
     background-size: cover;
     background-position: center;  
 }
